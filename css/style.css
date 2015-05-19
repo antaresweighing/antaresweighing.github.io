@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+		font-family: 'Merriweather', serif;
+    font-size: 15px;
+    font-weight:400;
+    color: #061C37;
+    background: #00004A;
+    background-repeat: repeat-x;
+}
+* {
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+#container {
+    display: block;
+    height: auto;
+    position: relative;
+    width: 940px;
+}
+#mainpic h1 {
+  	font-size: 350%;
+  	position: absolute;
+    top: 45px;
+    width: 900px;
+    text-align: center;
+}
+
+div.iso {
+	   content:url(../images/iso.png);
+    width: 15%;
+		position: absolute;
+    top: 20px;
+    left: 30px;
+    -ms-transform: rotate(-15deg); /* IE 9 */
+    -webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
+    transform: rotate(-15deg);
+}
+
+#mainpic {
+    background-image: url(../images/lake2.jpg);
+    background-size: 900px ;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    color:   #00004A;
+    width: 900px;
+    height: 200px;
+}
+
+#mainpic2 h2 {
+    position: absolute;
+    top: 120px;
+    font-weight:400;
+    text-align: center;
+}
+
+#mainpic h4 {
+    position: absolute;
+    top: 5px;
+    width: 20%;
+    left:700px;
+    text-align: left;
+    line-height: 125%;
+    color:   #00004A;
+}
+#mainpic2 {
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+.lightblue {
+    color: #B1C6FC}
+
+#menu {
+    background-image: url(../images/menu.png);
+    background-repeat: no-repeat;
+    width: 940px;
+    height: 69px;
+    float: left;	
+    clear: both;
+    font-family: 'Lato', sans-serif;
+}
+#content {
+    width: 790px;
+    height: auto;
+    background-color: white;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 5px;
+    line-height: 200%;
+    color: #00004A;
+}
+#contact{
+    font-size: 150%
+}
+#footer {
+    width: inherit;
+    height: auto;
+    text-align: center;
+}
+#footer a,#footer a:visited {
+    font-size: 12px;
+    text-decoration: none;
+    color: #7198E1;
+}
+#menu ul {
+    list-style: none;
+    padding: 0px;
+    margin-left: auto;
+    width: 900px;
+}
+#menu li {
+    list-style: none;
+    padding: 0px;
+    display: inline;
+}
+#menu a {
+    float: left;
+    width: 150px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 17px;
+    font-size: 15px;
+}
+#menu a:hover {
+    color: #BAD1F3;
+}
+#content p {
+}
+html, body {
+    text-align: center;
+}
+p {
+    text-align: left;
+}
+
+div.image {
+   content:url(../images/truck.jpg);
+   width:540px; /* you can use % */
+    height: auto;
+}​
