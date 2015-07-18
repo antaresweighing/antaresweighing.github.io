@@ -15,7 +15,7 @@ body {
 }
 #container {
     display: block;
-    height: auto;
+    height: 80vh;
     position: relative;
     width: 940px;
 }
@@ -83,7 +83,7 @@ div.iso {
 }
 #content {
     width: 790px;
-    height: auto;
+    height: 100%;
     background-color: white;
     padding-left: 55px;
     padding-right: 55px;
