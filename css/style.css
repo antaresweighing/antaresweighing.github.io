@@ -83,7 +83,6 @@ div.iso {
 }
 #content {
     width: 790px;
-    height: 100%;
     background-color: white;
     padding-left: 55px;
     padding-right: 55px;
@@ -141,6 +140,6 @@ p {
 
 div.image {
    content:url(../images/truck.jpg);
-   width:540px; /* you can use % */
-    height: auto;
+   width:540px;
+   height: auto;
 }​
