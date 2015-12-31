@@ -139,7 +139,7 @@ p {
 }
 
 div.image {
-   content:url(../images/truck.jpg);
+   content:url(../images/truck-small.jpg);
    width:540px;
    height: auto;
 }​
